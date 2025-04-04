@@ -89,7 +89,7 @@ public class MyArrayListTest {
         list.add(10);
         list.add(20);
 
-        assertThrows(IndexOutOfBoundsException.class, () -> list.add(30, 3)); // Добавление за пределы
-        assertThrows(IndexOutOfBoundsException.class, () -> list.add(30, -1)); // Добавление с отрицательным индексом
+        assertThrows(IndexOutOfBoundsException.class, () -> list.add(30, 3));
+        assertThrows(IndexOutOfBoundsException.class, () -> list.add(30, -1));
     }
 }
